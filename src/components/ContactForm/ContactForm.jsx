@@ -48,6 +48,7 @@ export const ContactForm = ({ onSubmit }) => {
         <Label htmlFor="number">Number</Label>
         <InputEl type="tel" name="number" placeholder="Enter phone number" />
         <Error name="number" component="div" />
+
         <SubmitButton type="submit">Add contact</SubmitButton>
       </FormEl>
     </Formik>
